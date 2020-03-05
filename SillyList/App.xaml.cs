@@ -1,4 +1,7 @@
 ﻿using System;
+using SillyList.View;
+using SillyList.Model;
+using SillyList.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +13,7 @@ namespace SillyList
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

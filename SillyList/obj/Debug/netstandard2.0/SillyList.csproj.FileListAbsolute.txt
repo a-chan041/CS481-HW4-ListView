@@ -2,13 +2,11 @@
 /Users/amandachan/Projects/SillyList/SillyList/bin/Debug/netstandard2.0/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/bin/Debug/netstandard2.0/ref/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/bin/Debug/netstandard2.0/SillyList.pdb
-/Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.csprojAssemblyReference.cache
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/View/MainPage.xaml.g.cs
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.AssemblyInfoInputs.cache
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.AssemblyInfo.cs
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/ref/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.pdb
-/Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/Taiwan.xaml.g.cs
