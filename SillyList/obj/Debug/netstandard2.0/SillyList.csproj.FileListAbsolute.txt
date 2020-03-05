@@ -11,3 +11,4 @@
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/ref/SillyList.dll
 /Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/SillyList.pdb
+/Users/amandachan/Projects/SillyList/SillyList/obj/Debug/netstandard2.0/Taiwan.xaml.g.cs
