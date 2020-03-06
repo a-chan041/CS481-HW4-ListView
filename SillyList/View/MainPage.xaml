@@ -4,10 +4,32 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
+                    <ViewCell.ContextActions>
+                        <MenuItem
+                            Text="More Info"
+                            Clicked="OnClicked"/>
+
+                            
+
+                    </ViewCell.ContextActions>
                     <ViewCell.View>
-                        <StackLayout Orientation="Horizontal">
-                            <Label Text="{Binding Locations}"></Label>
-                            <Image Source="{Binding Image}"  WidthRequest="100" HorizontalOptions="Start"></Image>
+                        <StackLayout>
+                            <Label  x:Name="Location" Text="{Binding Locations}" HorizontalOptions="Start" Grid.Row="1"></Label>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                            </Grid>
+                            <Image x:Name="Image" Source="{Binding Image}"  WidthRequest="100" Grid.Column="3" HorizontalOptions="EndAndExpand"></Image>   
                         </StackLayout>  
                             
 

@@ -22,10 +22,7 @@ namespace SillyList.View
         {
             InitializeComponent();
             BindingContext = new TravelDestinationsViewModel();
-            //listThings.Add("Taiwan"); /*Referenced https://dzone.com/articles/xamarinforms-listview-with-pull-to-refresh/8 for Pull to Refresh */
-            //listThings.Add("Japan");
-            //listThings.Add("South Korea");
-            //List.ItemsSource = listThings;
+           /*Referenced https://dzone.com/articles/xamarinforms-listview-with-pull-to-refresh/8 for Pull to Refresh */
 
         }
 
@@ -37,20 +34,20 @@ namespace SillyList.View
             listDestinations.EndRefresh();
         }
 
+        public async void OnClicked(object sender, EventArgs e)
+        {
+            var stuff = sender as MenuItem;
+            var item = stuff.BindingContext as Destination;
+            await Navigation.PushAsync(new ContextInfo(item.Locations, item.Image, item.Description));
+
+        }
         /*public void doUpdate()
         {
             listThings.Add("Bali");
             List.ItemsSource = null;
             List.ItemsSource = listThings;
 
-        }
-
-         public async void OnClicked(object sender, EventArgs e)
-         {
-            await Navigation.PushAsync = new Taiwan();
-
-         }
-        */
+        }*/
 
 
 

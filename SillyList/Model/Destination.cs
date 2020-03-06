@@ -13,6 +13,7 @@ namespace SillyList.Model
 
         public string Locations { get; set; }
         public string Image { get; set; }
+        public string Description { get; set; }
 
         public List<Destination> GetDestinations()
         {
