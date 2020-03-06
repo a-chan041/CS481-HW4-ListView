@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{B9CCD593-6992-41FF-951A-174290E2E04C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SillyList/View/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SillyList/View/ContextInfo.xaml">
     <Files>
-      <File FileName="SillyList/View/ContextInfo.xaml" Line="11" Column="15" IsPinned="True" />
+      <File FileName="SillyList/View/ContextInfo.xaml" Line="7" Column="76" IsPinned="True" />
       <File FileName="SillyList/View/ContextInfo.xaml.cs" Line="23" Column="1" />
       <File FileName="SillyList/View/MainPage.xaml.cs" Line="51" Column="1" />
       <File FileName="SillyList/View/MainPage.xaml" Line="27" Column="145" />
-      <File FileName="SillyList/ViewModel/TravelDestinations.cs" Line="18" Column="92" />
-      <File FileName="SillyList/Model/Destination.cs" Line="16" Column="47" />
+      <File FileName="SillyList/ViewModel/TravelDestinations.cs" />
+      <File FileName="SillyList/Model/Destination.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +15,8 @@
             <Node name="SillyList" expanded="True">
               <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
-                <Node name="ContextInfo.xaml" expanded="True" />
-                <Node name="MainPage.xaml" expanded="True" selected="True" />
+                <Node name="ContextInfo.xaml" expanded="True" selected="True" />
+                <Node name="MainPage.xaml" expanded="True" />
               </Node>
               <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
