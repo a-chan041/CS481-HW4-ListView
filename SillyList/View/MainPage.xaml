@@ -8,29 +8,26 @@
                         <MenuItem
                             Text="More Info"
                             Clicked="OnClicked"/>
-
-                            
+                        <MenuItem
+                            Text="Delete"
+                            Clicked="MenuDelete"/>               
 
                     </ViewCell.ContextActions>
                     <ViewCell.View>
-                        <StackLayout>
-                            <Label  x:Name="Location" Text="{Binding Locations}" HorizontalOptions="Start" Grid.Row="1"></Label>
+                       
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
-                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
-                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
-                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>   
                                 </Grid.RowDefinitions>
+                                <Image x:Name="Image" Source="{Binding Image}"  WidthRequest="100" Grid.Row="0" Grid.Column="1" HorizontalOptions="End"></Image>   
+                                <Label  x:Name="Location" Text="{Binding Locations}" TextColor="Black" FontSize="15" Grid.Row="0" Grid.Column="0"></Label>
                             </Grid>
-                            <Image x:Name="Image" Source="{Binding Image}"  WidthRequest="100" Grid.Column="3" HorizontalOptions="EndAndExpand"></Image>   
-                        </StackLayout>  
+                            
+                          
                             
 
                            

@@ -4,7 +4,7 @@
        <ScrollView>
             <StackLayout>
                 <Image x:Name="Pic"></Image>
-                <Label x:Name="Descriptions"></Label>
+                <Label x:Name="Descriptions" TextColor="Black" FontSize="15"></Label>
             </StackLayout>
        </ScrollView>
     </ContentPage.Content>

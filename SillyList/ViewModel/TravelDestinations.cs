@@ -12,6 +12,13 @@ namespace SillyList.ViewModel
     {
         public ObservableCollection<Destination> Destinations { get; set; }
 
+        public Command<Destination> Remove
+        {
+
+            get { return new Command<Destination>(place => { Destinations.Remove(place); }); }
+
+        }
+
         public TravelDestinationsViewModel()
         {
             Destinations = new ObservableCollection<Destination>();
@@ -46,6 +53,19 @@ namespace SillyList.ViewModel
                     "Gaze up at the distant stars from serene villages surrounded by rice fields, sleeping in rustic hanok (traditional wooden house) guesthouses."
                 });
 
+                Destinations.Add(new Destination
+                {
+                    Locations = "Bali",
+                    Image = "Bali.jpeg",
+                    Description = "On Bali you can lose yourself in the chaos of Kuta or sybaritic pleasures of Seminyak and Kerobokan, surf wild beaches in the south or just hang out on Nusa Lembongan. " +
+                    "You can go family-friendly in Sanur or savour a lavish getaway on the Bukit Peninsula. " +
+                    "Ubud is the heart of Bali, a place where the culture of the island is most accessible, and it shares the island's most beautiful rice fields and ancient monuments with east and west Bali. North and west Bali are thinly populated but have the kind of diving and surfing that make any journey worthwhile"
+                });
+
+
+
+
+                    
             }
 
 

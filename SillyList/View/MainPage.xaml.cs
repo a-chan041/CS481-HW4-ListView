@@ -27,10 +27,10 @@ namespace SillyList.View
         }
 
        
-
+   
         public void RefreshView(object sender, EventArgs e)
         {
-            //doUpdate();
+            DisplayAlert("Uh Oh", "There are no new destinations.", "OK");
             listDestinations.EndRefresh();
         }
 
@@ -39,6 +39,15 @@ namespace SillyList.View
             var stuff = sender as MenuItem;
             var item = stuff.BindingContext as Destination;
             await Navigation.PushAsync(new ContextInfo(item.Locations, item.Image, item.Description));
+
+        }
+
+        public void MenuDelete(object sender, EventArgs e)
+        {
+            var stuff = sender as MenuItem;
+            var item = stuff.BindingContext as Destination;
+            var List = BindingContext as TravelDestinationsViewModel;
+            List.Remove.Execute(item);
 
         }
         /*public void doUpdate()

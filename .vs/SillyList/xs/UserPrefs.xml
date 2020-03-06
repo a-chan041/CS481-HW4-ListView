@@ -3,9 +3,9 @@
     <Files>
       <File FileName="SillyList/View/ContextInfo.xaml" Line="11" Column="15" IsPinned="True" />
       <File FileName="SillyList/View/ContextInfo.xaml.cs" Line="23" Column="1" />
-      <File FileName="SillyList/View/MainPage.xaml.cs" Line="22" Column="10" />
-      <File FileName="SillyList/View/MainPage.xaml" Line="32" Column="94" />
-      <File FileName="SillyList/ViewModel/TravelDestinations.cs" Line="46" Column="22" />
+      <File FileName="SillyList/View/MainPage.xaml.cs" Line="51" Column="1" />
+      <File FileName="SillyList/View/MainPage.xaml" Line="27" Column="145" />
+      <File FileName="SillyList/ViewModel/TravelDestinations.cs" Line="18" Column="92" />
       <File FileName="SillyList/Model/Destination.cs" Line="16" Column="47" />
     </Files>
     <Pads>
